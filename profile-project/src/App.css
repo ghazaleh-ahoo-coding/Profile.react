@@ -2,8 +2,9 @@
 * { box-sizing: border-box; }
 body {
   margin: 0;
+  padding: 20px 150px 20px 150px;
   font-family: Arial, Helvetica, sans-serif;
-  background: #173801;
+  background: #4e0a0a;
   color: #e5e7eb;
 }
 
@@ -11,6 +12,9 @@ body {
 .page {
   min-height: 100vh;
   padding: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .layout {
@@ -20,10 +24,10 @@ body {
 
 /* Top header like screenshot */
 .topHeader {
-  background: linear-gradient(180deg, #045f2d 0%, #02633e 100%);
+  background: linear-gradient(180deg, #c41c1c 0%, #370909 100%);
   border-radius: 20px;
   padding: 42px 48px;
-  border: 1px solid rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(198, 1, 1, 0.06);
 }
 
 .topHeaderInner {
@@ -38,13 +42,18 @@ body {
   height: 150px;
   border-radius: 999px;
   padding: 6px;
-  background: #5bff87;
+  background: #8e2103;
   display: flex;
   align-items: center;
   justify-content: center;
-  object-position: center;
+ 
 }
 
+img{
+  width:100%;
+  height: 100%;
+  display: block;
+}
 .avatarCircle {
   width: 100%;
   height: 100%;
@@ -76,7 +85,7 @@ body {
   margin: 10px 0 0 0;
   font-size: 22px;
   font-weight: 700;
-  color: #5bff61;
+  color: #e4cccb;
 }
 
 /* Header buttons */
@@ -96,13 +105,13 @@ body {
 }
 
 .btnHeader.primary {
-  background: #5bff61;
+  background: #f62500;
   color: #ffffff;
 }
 
 .btnHeader.ghost {
   background: #eef2ff;
-  color: #08dd59;
+  color: #e40707;
 }
 
 /* Avatar image */
@@ -138,7 +147,7 @@ body {
 
 /* Cards */
 .card {
-  background: rgba(255,255,255,0.05);
+  background: rgba(194, 8, 8, 0.05);
   border: 1px solid rgba(255,255,255,0.07);
   border-radius: 14px;
   padding: 18px;
@@ -174,7 +183,7 @@ body {
   margin-top: 12px;
   font-size: 40px;
   font-weight: 900;
-  color: #5bff61;
+  color: #e02c0d;
 }
 
 .statFooter {
@@ -209,7 +218,7 @@ body {
   justify-content: space-between;
   gap: 16px;
   padding: 8px 0;
-  border-bottom: 1px solid rgba(255,255,255,0.06);
+  border-bottom: 1px solid rgba(236, 36, 36, 0.06);
 }
 
 .row:last-child {
@@ -235,12 +244,12 @@ body {
   border-radius: 999px;
   background: rgba(34,197,94,0.15);
   border: 1px solid rgba(34,197,94,0.35);
-  color: #34d399;
+  color: #da1c19;
   font-weight: 800;
 }
 
 .verified {
-  color: #5bff61;
+  color: #e55f0b;
   font-weight: 900;
 }
 
