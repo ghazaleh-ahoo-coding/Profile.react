@@ -3,7 +3,7 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background: #0b1220;
+  background: #173801;
   color: #e5e7eb;
 }
 
@@ -20,7 +20,7 @@ body {
 
 /* Top header like screenshot */
 .topHeader {
-  background: linear-gradient(180deg, #1e293b 0%, #0f172a 100%);
+  background: linear-gradient(180deg, #045f2d 0%, #02633e 100%);
   border-radius: 20px;
   padding: 42px 48px;
   border: 1px solid rgba(255, 255, 255, 0.06);
@@ -38,10 +38,11 @@ body {
   height: 150px;
   border-radius: 999px;
   padding: 6px;
-  background: #5b5cff;
+  background: #5bff87;
   display: flex;
   align-items: center;
   justify-content: center;
+  object-position: center;
 }
 
 .avatarCircle {
@@ -75,7 +76,7 @@ body {
   margin: 10px 0 0 0;
   font-size: 22px;
   font-weight: 700;
-  color: #5b5cff;
+  color: #5bff61;
 }
 
 /* Header buttons */
@@ -95,13 +96,13 @@ body {
 }
 
 .btnHeader.primary {
-  background: #5b5cff;
+  background: #5bff61;
   color: #ffffff;
 }
 
 .btnHeader.ghost {
   background: #eef2ff;
-  color: #3b5bff;
+  color: #08dd59;
 }
 
 /* Avatar image */
@@ -126,8 +127,8 @@ body {
 }
 
 .btn.primary {
-  background: #5b5cff;
-  border-color: #5b5cff;
+  background: #5bff62;
+  border-color: #5bff61;
   color: white;
 }
 
@@ -173,7 +174,7 @@ body {
   margin-top: 12px;
   font-size: 40px;
   font-weight: 900;
-  color: #6d6bff;
+  color: #5bff61;
 }
 
 .statFooter {
@@ -239,7 +240,7 @@ body {
 }
 
 .verified {
-  color: #8b5cf6;
+  color: #5bff61;
   font-weight: 900;
 }
 
