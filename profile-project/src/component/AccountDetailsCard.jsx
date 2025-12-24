@@ -1,3 +1,5 @@
+import Row from "./Row";
+
 export default function AccountDetailsCard({ details }) {
   return (
     <div className="card infoCard">
@@ -5,7 +7,10 @@ export default function AccountDetailsCard({ details }) {
       <div className="rows">
         <Row label="Plan" value={details.plan} />
         <Row label="Member Since" value={details.memberSince} />
-        <Row label="Status" value={<span className="pill">{details.status}</span>} />
+        <Row
+          label="Status"
+          value={<span className="pill">{details.status}</span>}
+        />
       </div>
     </div>
   );
