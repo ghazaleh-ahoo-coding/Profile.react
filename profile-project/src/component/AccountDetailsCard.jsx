@@ -1,3 +1,5 @@
+import Row from "./Row";
+
 export default function AccountDetailsCard(details){
     return(
         <div classname="card UnfoCard">

@@ -4,7 +4,7 @@ export default function TopHeader({name, username, avatarImage}){
         <div className="topHeaserInner">
             <div className="avatarRing">
                 <div className="avatarCircle avatarImageWrapper">
-                    <img src={Avatar.jpg} alt={name}></img>
+                    <img src={avatarImage} alt={name}></img>
                 </div>
             </div>
             <div className="topHeaderContent">
