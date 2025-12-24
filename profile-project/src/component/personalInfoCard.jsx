@@ -7,7 +7,7 @@ export default function PersonalInfoCard({ info }) {
 
       <div className="rows">
         {Object.keys(info).map((label) => (
-            <Row key={label} label={label} value={info[label]}></Row>
+            <Row key={label} label={label} value={info[label]}/>
         ))}
       </div>
     </div>
